@@ -1,0 +1,20 @@
+SETUP:
+How many players
+Message about determining who places armies first
+List all free territories
+ask first player which territory they want to claim
+	repeat for the other players until all the territories have been claimed
+List all first player's territories and ask where they want to place an army
+	repeat for all players until all armies have been placed
+
+PLAYING:
+First player turn
+	Msg for place new armies
+	List all of their territories and all territories that are adjacent to those
+	Ask if they want to attack
+		If yes repeat the previous two steps until the user's answer is no or they have only one army on each territory left
+	If no Ask if they want to fortify
+		If yes list all of that player's territories and all of the territories that adjacent that, that player owns
+	If player won at least one territory they recieve one card
+repeat for all players
+	
